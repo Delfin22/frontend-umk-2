@@ -1,8 +1,8 @@
 function isOdd(n) {
-  return n % 2 != 0 ? true : false;
+  return n % 2 !== 0 ? true : false;
 }
 function isEven(n) {
-  return n % 2 == 0 ? true : false;
+  return n % 2 === 0 ? true : false;
 }
 
 console.log(isOdd(2));

@@ -9,4 +9,4 @@ const fib = (n) => {
   }
   return j;
 };
-console.log(fib(9));
+console.log(fib(80));
